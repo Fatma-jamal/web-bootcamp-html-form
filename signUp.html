@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table,td{
+                border: none;
+                border-collapse: collapse;
+                color: rgb(130, 170, 19);
+                padding: 10px;
+            }
+            table{
+                background-color: rgb(7, 1, 39);
+                width: 40%;
+                height: 60%;
+                margin-left: auto;
+                margin-right: auto;
+                justify-content: center;
+            }
+            body{
+                background-color: rgb(7, 1, 39);
+                margin-top: 0;
+ 
+            }
+
+    
+            h3{
+                background-color: rgb(228, 157, 5);
+                color: yellow;
+                margin-top: 0;
+               
+                padding: 1%;
+                width: 100%;}
+                .btn{
+                    text-align: right;
+                    background-color: rgb(180, 125, 6);
+                    width: 100%;
+                    bottom: 0;
+                    position: absolute;
+                    padding: 2%;
+                }
+                input[type=submit]{
+                    background-color: green;
+                    color: white;
+                    width: 80px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    margin-left: 10px;
+                }
+                input[type="button"] {
+      background-color: red;
+      color: white;
+      width: 80px;
+      height: 40px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+                    
+        </style>
+    </head>
+    <body>
+        <h3>Sign up</h3>
+        <form>
+            <table>
+                <tr>
+                    <td><label>First Name</label></td>
+                    <td><input type="text" value="Enter First Name"></td>
+                </tr>
+                <tr>
+                    <td><label>Last Name</label></td>
+                    <td><input type="text" value="Enter Last Name"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Date of Birth</label>
+                    </td>
+                    <td>
+                        <select>
+                            <option selected disabled>Day</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option><option>13</option>
+                            <option>14</option>
+                            <option>15</option><option>6</option>
+                            <option>17</option>
+                            <option>18</option><option>19</option>
+                            <option>20</option>
+                            <option>21</option><option>22</option>
+                            <option>23</option>
+                            <option>24</option><option>25</option>
+                            <option>26</option>
+                            <option>27</option><option>28</option>
+                            <option>29</option>
+                            <option>30</option><option>31</option>
+                        </select>
+                        <select>
+                            <option selected disabled>Month</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                        <select>
+                            <option selected disabled>Year</option>
+                            <option value="1995">1995</option>
+                            <option value="1996">1996</option>
+                            <option value="1997">1997</option>
+                            <option value="1998">1998</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2001">2001</option>
+
+                        </select>
+                        
+                        <!--
+                         <input type="date">
+                        <input type="month">
+                        <input type="">-->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="male" checked> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Country</label>
+                    </td>
+                    <td>
+                        <select>
+                            <option selected disabled>Country</option>
+                            <option>Yemen</option>
+                            <option>Amirca</option>
+                            <option>Saudi Arabia</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>E-mail</label></td>
+                    <td>
+                        <input type="email" value="Enter E-mail">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Phone</label></td>
+                    <td>
+                        <input type="tel" value="Enter Phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Enter password</label>
+                    </td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Confirm password</label>
+                    </td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox">I Agree the Terms of use
+                    </td>
+                </tr>
+        </table>
+        <div class="btn">
+        <input type="submit" value="Submit">
+        <input type="button" value="Cancel">
+        </div>
+        </form>
+    </body>
+</html>
