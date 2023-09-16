@@ -4,12 +4,26 @@
         <style>
             table,td{
                 border: 1px solid white;
-                border-collapse: collapse;
+                /*border-collapse: collapse;*/
+                
             }
             table{
                 background-color: lightblue;
                 width: 40%;
-                height: 60%;
+                height: 80%;
+            }
+            .head{
+                text-align: center;
+                color: red;
+                font-size: 20px;
+                background-color: rgb(243, 215, 91);
+            }
+            td{
+                padding: 15px;
+            }
+            input[type=submit],input[type=reset],input[type=button]{
+                width: 100px;
+                height: 30px;
             }
         </style>
     </head>
@@ -17,7 +31,7 @@
         <form>
             <table>
                 <tr>
-                    <td colspan="2">registration Form</td>
+                    <th colspan="2" class="head">Registration Form</th>
                 </tr>
                 <tr>
                     <td><label>Enter Name</label></td>
