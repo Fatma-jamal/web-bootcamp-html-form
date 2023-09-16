@@ -17,27 +17,45 @@
                 justify-content: center;
             }
             body{
-                background-color: rgb(7, 1, 39);
                 margin-top: 0;
  
             }
 
     
-            p{
+            .h3{
                 background-color: rgb(228, 157, 5);
                 color: yellow;
                 margin-top: 0;
                 font-size: 20px;
-               
                 padding: 1%;
-                width: 100%;}
+                width: 100%;
+            }
                 .btn{
                     text-align: right;
                     background-color: rgb(180, 125, 6);
-                    width: 100%;
-                    bottom: 0;
                     position: absolute;
-                    padding: 2%;
+                    padding: 1%;
+
+                }
+                .cancel{
+                    background-color: red;
+                color: white;
+                width: 80px;
+                height: 40px;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                margin-left: 10px;
+
+                }
+                .submit{
+                    background-color: green;
+                    color: white;
+                    width: 80px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 3px;
+                    cursor: pointer;
                 }
                 input[type=submit]{
                     background-color: green;
@@ -62,9 +80,12 @@
         </style>
     </head>
     <body>
-        <p>Sign up</p>
         <form>
             <table>
+                <tr>
+                    <td colspan="2" class="h3">Sign up</td>
+                </tr>
+
                 <tr>
                     <td><label>First Name</label></td>
                     <td><input type="text" value="Enter First Name"></td>
@@ -195,11 +216,21 @@
                         <input type="checkbox">I Agree the Terms of use
                     </td>
                 </tr>
-        </table>
-        <div class="btn">
-        <input type="submit" value="Submit">
-        <input type="button" value="Cancel">
-        </div>
+                <tr>
+                    <td colspan="2" style="background-color: rgb(180, 125, 6);">
+                        <button type="submit" class="submit">Submit</button>
+                        <button type="submit" class="cancel">Cancel</button>
+                    </td>
+                    <!--
+                    <td>
+                        <div class="btn">
+                            <input type="submit" value="Submit">
+                            <input type="button" value="Cancel">
+                        </div>
+                    </td>-->
+                </tr>
+        </table><br><br>
+        
         </form>
     </body>
 </html>
